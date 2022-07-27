@@ -1,0 +1,146 @@
+.grid{
+   margin:30px 0 0 0;
+}
+
+.btn{
+   margin-right: 10px;
+   color: white;
+   background-color: black;
+   border: 2px solid darkgray ;
+   cursor: pointer;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn:hover{
+   background-color: aquamarine;
+   border-style:groove;
+}
+
+.title{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   position: absolute;
+   margin-left:5px ;
+   cursor: pointer;
+   color:white;
+   border: 2px solid darkgray ;
+   margin-top:2px;
+   margin-left: 5px;
+   background-color: black;
+   border-radius: 5px;
+   padding :5px;
+}
+
+.title:hover{
+   color:aquamarine;
+}
+
+.info{
+   height:5px;
+   width:5px;
+   border:2px solid white;
+   display: flex;
+   position: relative;
+   margin-top: 10px;
+  
+}
+.dropdown-item{
+   width:100%;
+
+}
+
+.dropdown-item:hover{
+font-size: 20px;
+background-color: aquamarine;
+}
+
+.navbar-brand:hover{
+   color: aquamarine;
+   font-size: 25px;
+}
+
+.nav-link:hover{
+   color: aquamarine;
+
+}
+#changingtheme:hover{
+   color:aquamarine
+}
+
+
+#mainText >ul li {
+   display: inline-block;
+    list-style: none;
+    padding: 0 20px 0 0;
+    margin-top:3px;
+    font-size: 20px;
+    margin-left: 9px;
+}
+
+.circle{
+   background: black;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+}
+
+.triangle{
+   width: 2px;
+   height: 2px;
+   border-top: 5px solid transparent;
+   border-left: 11px solid transparent;
+   border-right: 11px solid transparent;
+   border-bottom: 20px solid black;
+   
+   
+}
+.visitednode{
+   border-radius: 0%;
+   width: 25px;
+    height: 25px;
+    
+   background-color:rgba(17, 104, 217, 0.75) ;
+   
+
+}
+.visitednode2{
+   border-radius: 0%;
+   width: 25px;
+    height: 25px;
+   background-color:rgba(0, 217, 159, 0.75) ; ;
+   
+
+}
+.visitednode3{
+   border-radius: 0%;
+   width: 25px;
+    height: 25px;
+   background-color:rgba(0, 190, 218, 0.75)  ;
+   
+
+}
+
+.shortestnode{
+   border-radius: 0%;
+   width: 25px;
+    height: 25px;
+   background-color:rgb(255, 254, 106) ;
+}
+
+.wallnode{
+   border-radius: 0%;
+   width: 25px;
+    height: 25px;
+   background-color: rgb(10, 13, 14); 
+}
+
+.unvisitednode{
+
+   width: 25px;
+    height: 25px;
+   border: 1px solid black; 
+}
+
+.temp2{
+margin-left: 37%;
+}
